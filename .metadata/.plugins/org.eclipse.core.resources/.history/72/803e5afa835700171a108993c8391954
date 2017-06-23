@@ -1,0 +1,112 @@
+/*
+ /**
+ * \file Graphe.cpp
+ * \brief Implémentation d'un graphe orienté.
+ * \author ?
+ * \version 0.5
+ * \date ?
+ *
+ *  Travail pratique numéro 2
+ *
+ */
+
+#include "Graphe.h"
+#include "AssertionException.h"
+//vous pouvez inclure d'autres librairies si c'est nécessaire
+
+using namespace std;
+
+namespace TP2
+{
+	//Mettez l'implémentation de vos méthodes ici.
+
+	Graphe::Graphe(size_t nbSommets):
+		nbSommets(nbSommets), nbArcs(0), noms(vector<string>(nbSommets)), listesAdj(nbSommets){
+
+	}
+
+	Graphe::~Graphe() {
+	}
+
+	void Graphe::resize(size_t nouvelleTaille) {
+		nbSommets = nouvelleTaille;
+		listesAdj.resize(nouvelleTaille);
+		noms.resize(nouvelleTaille);
+	}
+
+	void Graphe::nommer(size_t sommet, const string& nom) {
+		ASSERTION(sommet < nbSommets);
+		noms[sommet] = nom;
+	}
+
+	void Graphe::ajouterArc(size_t source, size_t destination, float duree,
+			float cout) {
+		ASSERTION(source < nbSommets);
+		ASSERTION(destination < nbSommets);
+		ASSERTION(!arcExiste(source, destination));
+		Ponderations p(duree, cout);
+		Arc d(destination, p);
+		listesAdj[source].push_back(d);
+		nbArcs++;
+
+	}
+
+	void Graphe::enleverArc(size_t source, size_t destination) {
+		ASSERTION(source < nbSommets);
+		ASSERTION(destination < nbSommets);
+		ASSERTION(arcExiste(source, destination));
+		ASSERTION(nbArcs > 0);
+		std::list<Arc> & liste = listesAdj[source];
+		for(auto it=liste.begin(); it != liste.end(); it++ ){
+			if (it->destination == destination){
+				it = liste.erase(it);
+				nbArcs--;
+			}
+		}
+	}
+
+	bool Graphe::arcExiste(size_t source, size_t destination) const {
+		ASSERTION(source < nbSommets);
+		ASSERTION(destination < nbSommets);
+		auto liste = listesAdj[source];
+		for(auto it=liste.begin(); it != liste.end();it++){
+			if (it->destination == destination){
+				return true;
+			}
+		}
+		return false;
+	}
+
+	vector<size_t> Graphe::listerSommetsAdjacents(size_t sommet) const {
+		ASSERTION(sommet < nbSommets);
+	}
+
+	string Graphe::getNomSommet(size_t sommet) const {
+		ASSERTION(sommet < nbSommets);
+		return noms[sommet];
+	}
+
+	size_t Graphe::getNumeroSommet(const string& nom) const {
+		vector<string> liste = noms;
+		for(auto i = 0; i < liste.size(); i++){
+			if (liste[i] == nom){
+				return i;
+			}
+		}
+
+	}
+
+	int Graphe::getNombreSommets() const {
+		return nbSommets;
+	}
+
+	int Graphe::getNombreArcs() const {
+		return nbArcs;
+	}
+
+	Ponderations Graphe::getPonderationsArc(size_t source,
+			size_t destination) const {
+
+	}
+
+}//Fin du namespace

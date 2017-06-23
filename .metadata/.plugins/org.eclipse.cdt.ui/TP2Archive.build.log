@@ -1,0 +1,35 @@
+21:50:18 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../ReseauInterurbain.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ReseauInterurbain.d" -MT"ReseauInterurbain.o" -o "ReseauInterurbain.o" "../ReseauInterurbain.cpp"
+In file included from ../ReseauInterurbain.cpp:13:0:
+../ReseauInterurbain.h: In constructor ‘TP2::ReseauInterurbain::ReseauInterurbain(std::__cxx11::string, size_t)’:
+../ReseauInterurbain.h:77:14: warning: ‘TP2::ReseauInterurbain::nomReseau’ will be initialized after [-Wreorder]
+  std::string nomReseau;  // Le nom du reseau (exemple: Orleans Express)
+              ^
+../ReseauInterurbain.h:76:9: warning:   ‘TP2::Graphe TP2::ReseauInterurbain::unReseau’ [-Wreorder]
+  Graphe unReseau;   //Le type ReseauRoutier est composé d'un graphe
+         ^
+../ReseauInterurbain.cpp:20:1: warning:   when initialized here [-Wreorder]
+ ReseauInterurbain::ReseauInterurbain(std::string nomReseau, size_t nbVilles):
+ ^
+../ReseauInterurbain.cpp: In member function ‘TP2::Chemin TP2::ReseauInterurbain::rechercheCheminDijkstra(const string&, const string&, bool) const’:
+../ReseauInterurbain.cpp:79:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../ReseauInterurbain.cpp: In member function ‘std::vector<std::vector<std::__cxx11::basic_string<char> > > TP2::ReseauInterurbain::algorithmeKosaraju()’:
+../ReseauInterurbain.cpp:82:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../ReseauInterurbain.cpp
+ 
+Building target: libTP2Archive.a
+Invoking: GCC Archiver
+ar -r  "libTP2Archive.a"  ./Graphe\ .o ./ReseauInterurbain.o   
+ar: création de libTP2Archive.a
+Finished building target: libTP2Archive.a
+ 
+
+21:50:20 Build Finished (took 1s.763ms)
+

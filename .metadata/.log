@@ -1,0 +1,25 @@
+!SESSION 2017-06-22 10:44:09.454 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=fr_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -data .
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-22 10:44:37.312
+!MESSAGE Indexed 'TP2Main' (0 sources, 0 headers) in 0,002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-22 10:44:52.154
+!MESSAGE Indexed 'TP2Test' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-22 10:45:05.718
+!MESSAGE Indexed 'TP2Archive' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-22 10:46:45.002
+!MESSAGE Indexed 'TP2Test' (1 sources, 323 headers) in 6,41 sec: 62 133 declarations; 109 788 references; 0 unresolved inclusions; 0 syntax errors; 21 unresolved names (0,012 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-22 10:46:50.007
+!MESSAGE Indexed 'TP2Main' (1 sources, 147 headers) in 1,38 sec: 12 258 declarations; 19 851 references; 0 unresolved inclusions; 0 syntax errors; 19 unresolved names (0,059 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-22 10:46:58.981
+!MESSAGE Indexed 'TP2Archive' (1 sources, 255 headers) in 3,34 sec: 37 590 declarations; 79 552 references; 0 unresolved inclusions; 0 syntax errors; 21 unresolved names (0,018 %)

@@ -1,0 +1,10 @@
+21:50:20 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+
+21:50:21 Build Finished (took 223ms)
+

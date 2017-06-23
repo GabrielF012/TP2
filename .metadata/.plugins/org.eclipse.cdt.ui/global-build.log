@@ -1,0 +1,1586 @@
+10:47:16 **** Build of configuration Debug for project TP2Test ****
+make all 
+Building file: ../Test_main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test_main.d" -MT"Test_main.o" -o "Test_main.o" "../Test_main.cpp"
+Finished building: ../Test_main.cpp
+ 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+10:47:28 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+10:47:29 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+10:48:04 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:90:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:102:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+Finished building: ../Graphe .cpp
+ 
+Building target: libTP2Archive.a
+Invoking: GCC Archiver
+ar -r  "libTP2Archive.a"  ./Graphe\ .o   
+ar: création de libTP2Archive.a
+Finished building target: libTP2Archive.a
+ 
+10:48:06 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building target: TP2Main
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Main"  ./Main.o   -lTP2Archive
+Finished building target: TP2Main
+ 
+10:48:07 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+10:48:11 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+10:49:46 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+make: rien à faire pour « all ».
+10:49:47 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+10:49:47 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building file: ../Test_main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test_main.d" -MT"Test_main.o" -o "Test_main.o" "../Test_main.cpp"
+Finished building: ../Test_main.cpp
+ 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+10:49:53 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+11:13:12 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:90:16: error: no match for ‘operator[]’ (operand types are ‘const std::vector<std::__cxx11::basic_string<char> >’ and ‘std::__cxx11::basic_string<char>’)
+     return noms[elem];
+                ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../Graphe.h:16,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_vector.h:779:7: note: candidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::reference = std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:779:7: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+/usr/include/c++/5/bits/stl_vector.h:794:7: note: candidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::const_reference = const std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) const _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:794:7: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:106:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+make: *** [Graphe .o] Erreur 1
+11:13:14 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+11:13:14 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+11:15:11 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:90:11: error: no match for ‘operator==’ (operand types are ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ and ‘const string {aka const std::__cxx11::basic_string<char>}’)
+    if (it == nom){
+           ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from ../Graphe.h:18,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/random.tcc:1878:5: note: candidate: template<class _RealType1> bool std::operator==(const std::normal_distribution<_RealType>&, const std::normal_distribution<_RealType>&)
+     operator==(const std::normal_distribution<_RealType>& __d1,
+     ^
+/usr/include/c++/5/bits/random.tcc:1878:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::normal_distribution<_RealType>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/list:63:0,
+                 from ../Graphe.h:17,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_list.h:1807:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)
+     operator==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+     ^
+/usr/include/c++/5/bits/stl_list.h:1807:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::__cxx11::list<_Tp, _Alloc>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/list:63:0,
+                 from ../Graphe.h:17,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_list.h:285:5: note: candidate: template<class _Val> bool std::operator==(const std::_List_iterator<_Tp>&, const std::_List_const_iterator<_Val>&)
+     operator==(const _List_iterator<_Val>& __x,
+     ^
+/usr/include/c++/5/bits/stl_list.h:285:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::_List_iterator<_Tp>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../Graphe.h:16,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_vector.h:1511:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^
+/usr/include/c++/5/bits/stl_vector.h:1511:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/locale_facets.h:48:0,
+                 from /usr/include/c++/5/bits/basic_ios.h:37,
+                 from /usr/include/c++/5/ios:44,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/include/c++/5/bits/streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/ios_base.h:46:0,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/system_error:303:3: note: candidate: bool std::operator==(const std::error_condition&, const std::error_condition&)
+   operator==(const error_condition& __lhs,
+   ^
+/usr/include/c++/5/system_error:303:3: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘const std::error_condition&’
+/usr/include/c++/5/system_error:296:3: note: candidate: bool std::operator==(const std::error_condition&, const std::error_code&)
+   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+   ^
+/usr/include/c++/5/system_error:296:3: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘const std::error_condition&’
+/usr/include/c++/5/system_error:289:3: note: candidate: bool std::operator==(const std::error_code&, const std::error_condition&)
+   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+   ^
+/usr/include/c++/5/system_error:289:3: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘const std::error_code&’
+/usr/include/c++/5/system_error:284:3: note: candidate: bool std::operator==(const std::error_code&, const std::error_code&)
+   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^
+/usr/include/c++/5/system_error:284:3: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘const std::error_code&’
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/basic_string.h:4937:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4937:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/basic_string.h:4925:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4925:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   mismatched types ‘const _CharT*’ and ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/basic_string.h:4911:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4911:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::__cxx11::basic_string<_CharT>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/basic_string.h:4904:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4904:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:41:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/allocator.h:134:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/include/c++/5/bits/allocator.h:134:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::allocator<_CharT>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:41:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/allocator.h:128:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/include/c++/5/bits/allocator.h:128:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::allocator<_CharT>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:1071:5: note: candidate: template<class _Iterator> bool std::operator==(const std::move_iterator<_Iterator>&, const std::move_iterator<_Iterator>&)
+     operator==(const move_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:1071:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::move_iterator<_Iterator>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:1065:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_Iterator>&, const std::move_iterator<_IteratorR>&)
+     operator==(const move_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:1065:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::move_iterator<_Iterator>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:342:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:342:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_pair.h:214:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/include/c++/5/bits/stl_pair.h:214:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::pair<_T1, _T2>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/iosfwd:40:0,
+                 from /usr/include/c++/5/ios:38,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/include/c++/5/bits/postypes.h:216:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::fpos<_StateT>’
+    if (it == nom){
+              ^
+In file included from /usr/include/i386-linux-gnu/c++/5/bits/c++allocator.h:33:0,
+                 from /usr/include/c++/5/bits/allocator.h:46,
+                 from /usr/include/c++/5/string:41,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/ext/new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^
+/usr/include/c++/5/ext/new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const __gnu_cxx::new_allocator<_Tp>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:827:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:827:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘const string {aka const std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:820:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:820:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘const string {aka const std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorR, _Container>’
+    if (it == nom){
+              ^
+../Graphe .cpp:91:17: error: no match for ‘operator[]’ (operand types are ‘std::vector<std::__cxx11::basic_string<char> >’ and ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’)
+     return liste[it];
+                 ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../Graphe.h:16,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_vector.h:779:7: note: candidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::reference = std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:779:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+/usr/include/c++/5/bits/stl_vector.h:794:7: note: candidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::const_reference = const std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) const _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:794:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:107:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+make: *** [Graphe .o] Erreur 1
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+11:15:12 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+11:15:12 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+11:15:26 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:90:11: error: no match for ‘operator==’ (operand types are ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ and ‘const string {aka const std::__cxx11::basic_string<char>}’)
+    if (it == nom){
+           ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from ../Graphe.h:18,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/random.tcc:1878:5: note: candidate: template<class _RealType1> bool std::operator==(const std::normal_distribution<_RealType>&, const std::normal_distribution<_RealType>&)
+     operator==(const std::normal_distribution<_RealType>& __d1,
+     ^
+/usr/include/c++/5/bits/random.tcc:1878:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::normal_distribution<_RealType>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/list:63:0,
+                 from ../Graphe.h:17,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_list.h:1807:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)
+     operator==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+     ^
+/usr/include/c++/5/bits/stl_list.h:1807:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::__cxx11::list<_Tp, _Alloc>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/list:63:0,
+                 from ../Graphe.h:17,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_list.h:285:5: note: candidate: template<class _Val> bool std::operator==(const std::_List_iterator<_Tp>&, const std::_List_const_iterator<_Val>&)
+     operator==(const _List_iterator<_Val>& __x,
+     ^
+/usr/include/c++/5/bits/stl_list.h:285:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::_List_iterator<_Tp>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../Graphe.h:16,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_vector.h:1511:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^
+/usr/include/c++/5/bits/stl_vector.h:1511:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/locale_facets.h:48:0,
+                 from /usr/include/c++/5/bits/basic_ios.h:37,
+                 from /usr/include/c++/5/ios:44,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/include/c++/5/bits/streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/ios_base.h:46:0,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/system_error:303:3: note: candidate: bool std::operator==(const std::error_condition&, const std::error_condition&)
+   operator==(const error_condition& __lhs,
+   ^
+/usr/include/c++/5/system_error:303:3: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘const std::error_condition&’
+/usr/include/c++/5/system_error:296:3: note: candidate: bool std::operator==(const std::error_condition&, const std::error_code&)
+   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+   ^
+/usr/include/c++/5/system_error:296:3: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘const std::error_condition&’
+/usr/include/c++/5/system_error:289:3: note: candidate: bool std::operator==(const std::error_code&, const std::error_condition&)
+   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+   ^
+/usr/include/c++/5/system_error:289:3: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘const std::error_code&’
+/usr/include/c++/5/system_error:284:3: note: candidate: bool std::operator==(const std::error_code&, const std::error_code&)
+   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^
+/usr/include/c++/5/system_error:284:3: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘const std::error_code&’
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/basic_string.h:4937:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4937:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/basic_string.h:4925:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4925:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   mismatched types ‘const _CharT*’ and ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/basic_string.h:4911:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4911:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::__cxx11::basic_string<_CharT>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/basic_string.h:4904:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4904:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:41:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/allocator.h:134:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/include/c++/5/bits/allocator.h:134:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::allocator<_CharT>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/string:41:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/allocator.h:128:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/include/c++/5/bits/allocator.h:128:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::allocator<_CharT>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:1071:5: note: candidate: template<class _Iterator> bool std::operator==(const std::move_iterator<_Iterator>&, const std::move_iterator<_Iterator>&)
+     operator==(const move_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:1071:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::move_iterator<_Iterator>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:1065:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_Iterator>&, const std::move_iterator<_IteratorR>&)
+     operator==(const move_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:1065:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::move_iterator<_Iterator>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:342:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:342:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_pair.h:214:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/include/c++/5/bits/stl_pair.h:214:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::pair<_T1, _T2>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/iosfwd:40:0,
+                 from /usr/include/c++/5/ios:38,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/include/c++/5/bits/postypes.h:216:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const std::fpos<_StateT>’
+    if (it == nom){
+              ^
+In file included from /usr/include/i386-linux-gnu/c++/5/bits/c++allocator.h:33:0,
+                 from /usr/include/c++/5/bits/allocator.h:46,
+                 from /usr/include/c++/5/string:41,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/ext/new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^
+/usr/include/c++/5/ext/new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ is not derived from ‘const __gnu_cxx::new_allocator<_Tp>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:827:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:827:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘const string {aka const std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+    if (it == nom){
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Graphe.h:12,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_iterator.h:820:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:820:5: note:   template argument deduction/substitution failed:
+../Graphe .cpp:90:14: note:   ‘const string {aka const std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorR, _Container>’
+    if (it == nom){
+              ^
+../Graphe .cpp:91:17: error: no match for ‘operator[]’ (operand types are ‘std::vector<std::__cxx11::basic_string<char> >’ and ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’)
+     return liste[it];
+                 ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../Graphe.h:16,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_vector.h:779:7: note: candidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::reference = std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:779:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+/usr/include/c++/5/bits/stl_vector.h:794:7: note: candidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::const_reference = const std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) const _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:794:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:107:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+make: *** [Graphe .o] Erreur 1
+11:15:26 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+11:15:27 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+11:16:37 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:90:13: error: no match for ‘operator[]’ (operand types are ‘std::vector<std::__cxx11::basic_string<char> >’ and ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’)
+    if (liste[it] == nom){
+             ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../Graphe.h:16,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_vector.h:779:7: note: candidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::reference = std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:779:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+/usr/include/c++/5/bits/stl_vector.h:794:7: note: candidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::const_reference = const std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) const _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:794:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+../Graphe .cpp:92:4: error: expected ‘;’ before ‘}’ token
+    }
+    ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:107:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:95:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+make: *** [Graphe .o] Erreur 1
+11:16:38 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+11:16:38 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+11:16:41 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:90:13: error: no match for ‘operator[]’ (operand types are ‘std::vector<std::__cxx11::basic_string<char> >’ and ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’)
+    if (liste[it] == nom){
+             ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../Graphe.h:16,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_vector.h:779:7: note: candidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::reference = std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:779:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+/usr/include/c++/5/bits/stl_vector.h:794:7: note: candidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::const_reference = const std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) const _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:794:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:107:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:95:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+make: *** [Graphe .o] Erreur 1
+11:16:42 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+11:16:42 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+11:16:59 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:90:13: error: no match for ‘operator[]’ (operand types are ‘std::vector<std::__cxx11::basic_string<char> >’ and ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’)
+    if (liste[it] == nom){
+             ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../Graphe.h:16,
+                 from ../Graphe .cpp:13:
+/usr/include/c++/5/bits/stl_vector.h:779:7: note: candidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::reference = std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:779:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+/usr/include/c++/5/bits/stl_vector.h:794:7: note: candidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::const_reference = const std::__cxx11::basic_string<char>&; std::vector<_Tp, _Alloc>::size_type = unsigned int]
+       operator[](size_type __n) const _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_vector.h:794:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ to ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka unsigned int}’
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:107:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:95:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+make: *** [Graphe .o] Erreur 1
+11:17:00 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+11:17:00 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+11:20:45 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:89:29: error: ‘class std::vector<std::__cxx11::basic_string<char> >’ has no member named ‘seize’
+   for(auto i = 0; i < liste.seize(); i++){
+                             ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:107:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:95:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+make: *** [Graphe .o] Erreur 1
+11:20:46 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+11:20:46 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+11:21:00 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:89:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(auto i = 0; i < liste.size(); i++){
+                     ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:107:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:95:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+Finished building: ../Graphe .cpp
+ 
+Building target: libTP2Archive.a
+Invoking: GCC Archiver
+ar -r  "libTP2Archive.a"  ./Graphe\ .o   
+ar: création de libTP2Archive.a
+Finished building target: libTP2Archive.a
+ 
+11:21:01 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building target: TP2Main
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Main"  ./Main.o   -lTP2Archive
+Finished building target: TP2Main
+ 
+11:21:01 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+15:20:31 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building file: ../Test_main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test_main.d" -MT"Test_main.o" -o "Test_main.o" "../Test_main.cpp"
+Finished building: ../Test_main.cpp
+ 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+15:21:36 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+make: rien à faire pour « all ».
+15:21:36 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+15:21:36 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building file: ../Test_main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test_main.d" -MT"Test_main.o" -o "Test_main.o" "../Test_main.cpp"
+Finished building: ../Test_main.cpp
+ 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+15:21:40 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+15:22:39 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+make: rien à faire pour « all ».
+15:22:39 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+subdir.mk:18 : la recette pour la cible « Main.o » a échouée
+../Main.cpp:5:17: error: ‘Tp2’ is not a namespace-name
+ using namespace Tp2;
+                 ^
+../Main.cpp:5:20: error: expected namespace-name before ‘;’ token
+ using namespace Tp2;
+                    ^
+../Main.cpp: In function ‘int main()’:
+../Main.cpp:9:2: error: ‘Graphe’ was not declared in this scope
+  Graphe g;
+  ^
+../Main.cpp:9:2: note: suggested alternative:
+In file included from ../Main.cpp:2:0:
+/home/etudiant/Bureau/TP2/TP2Archive/Graphe.h:43:7: note:   ‘TP2::Graphe’
+ class Graphe
+       ^
+make: *** [Main.o] Erreur 1
+15:22:40 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+15:22:51 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+make: rien à faire pour « all ».
+15:22:52 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: TP2Main
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Main"  ./Main.o   -lTP2Archive
+Finished building target: TP2Main
+ 
+15:22:52 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+15:24:20 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:89:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(auto i = 0; i < liste.size(); i++){
+                     ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:107:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:95:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+Finished building: ../Graphe .cpp
+ 
+Building target: libTP2Archive.a
+Invoking: GCC Archiver
+ar -r  "libTP2Archive.a"  ./Graphe\ .o   
+ar: création de libTP2Archive.a
+Finished building target: libTP2Archive.a
+ 
+15:24:21 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building target: TP2Main
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Main"  ./Main.o   -lTP2Archive
+Finished building target: TP2Main
+ 
+15:24:21 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+15:24:34 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+15:29:15 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘void TP2::Graphe::resize(size_t)’:
+../Graphe .cpp:33:20: error: lvalue required as left operand of assignment
+   listesAdj.size() = nouvelleTaille;
+                    ^
+../Graphe .cpp:34:15: error: lvalue required as left operand of assignment
+   noms.size() = nouvelleTaille;
+               ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:91:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(auto i = 0; i < liste.size(); i++){
+                     ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:110:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:82:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:97:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+make: *** [Graphe .o] Erreur 1
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+15:29:15 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: TP2Main
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Main"  ./Main.o   -lTP2Archive
+/usr/bin/ld : ne peut trouver -lTP2Archive
+collect2: error: ld returned 1 exit status
+makefile:44 : la recette pour la cible « TP2Main » a échouée
+make: *** [TP2Main] Erreur 1
+15:29:16 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+15:33:44 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:91:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(auto i = 0; i < liste.size(); i++){
+                     ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:110:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:82:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:97:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+Finished building: ../Graphe .cpp
+ 
+Building target: libTP2Archive.a
+Invoking: GCC Archiver
+ar -r  "libTP2Archive.a"  ./Graphe\ .o   
+ar: création de libTP2Archive.a
+Finished building target: libTP2Archive.a
+ 
+15:33:45 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building target: TP2Main
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Main"  ./Main.o   -lTP2Archive
+Finished building target: TP2Main
+ 
+15:33:45 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+15:50:03 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:91:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(auto i = 0; i < liste.size(); i++){
+                     ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:117:10: error: could not convert ‘false’ from ‘bool’ to ‘TP2::Ponderations’
+   return false;
+          ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:82:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:97:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+subdir.mk:18 : la recette pour la cible « Graphe .o » a échouée
+make: *** [Graphe .o] Erreur 1
+15:50:04 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+15:50:04 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+15:50:11 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../Graphe .cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Graphe .d" -MT"Graphe\ .d" -o "Graphe .o" "../Graphe .cpp"
+../Graphe .cpp:2:2: warning: "/*" within comment [-Wcomment]
+  /**
+  ^
+In file included from ../Graphe .cpp:13:0:
+../Graphe.h: In constructor ‘TP2::Graphe::Graphe(size_t)’:
+../Graphe.h:122:9: warning: ‘TP2::Graphe::nbArcs’ will be initialized after [-Wreorder]
+  size_t nbArcs;  // Le nombre des arcs dans le graphe
+         ^
+../Graphe.h:108:27: warning:   ‘std::vector<std::__cxx11::basic_string<char> > TP2::Graphe::noms’ [-Wreorder]
+  std::vector<std::string> noms; /*!< les noms des sommets */
+                           ^
+../Graphe .cpp:23:2: warning:   when initialized here [-Wreorder]
+  Graphe::Graphe(size_t nbSommets):
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:91:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(auto i = 0; i < liste.size(); i++){
+                     ^
+../Graphe .cpp: In member function ‘std::vector<unsigned int> TP2::Graphe::listerSommetsAdjacents(size_t) const’:
+../Graphe .cpp:82:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘size_t TP2::Graphe::getNumeroSommet(const string&) const’:
+../Graphe .cpp:97:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../Graphe .cpp: In member function ‘TP2::Ponderations TP2::Graphe::getPonderationsArc(size_t, size_t) const’:
+../Graphe .cpp:117:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+Finished building: ../Graphe .cpp
+ 
+Building target: libTP2Archive.a
+Invoking: GCC Archiver
+ar -r  "libTP2Archive.a"  ./Graphe\ .o   
+ar: création de libTP2Archive.a
+Finished building target: libTP2Archive.a
+ 
+15:50:13 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building target: TP2Main
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Main"  ./Main.o   -lTP2Archive
+Finished building target: TP2Main
+ 
+15:50:13 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+15:54:39 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+make: rien à faire pour « all ».
+15:54:43 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+15:54:43 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building file: ../Test_main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test_main.d" -MT"Test_main.o" -o "Test_main.o" "../Test_main.cpp"
+Finished building: ../Test_main.cpp
+ 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+15:55:33 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+15:59:09 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building file: ../Test_main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test_main.d" -MT"Test_main.o" -o "Test_main.o" "../Test_main.cpp"
+Finished building: ../Test_main.cpp
+ 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+16:00:06 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+make: rien à faire pour « all ».
+16:00:06 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+16:00:08 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building file: ../Test_main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test_main.d" -MT"Test_main.o" -o "Test_main.o" "../Test_main.cpp"
+Finished building: ../Test_main.cpp
+ 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+16:00:13 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+16:00:23 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+make: rien à faire pour « all ».
+16:00:23 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+make: rien à faire pour « all ».
+16:00:23 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building file: ../Test_main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/etudiant/Bureau/TP2/TP2Archive" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test_main.d" -MT"Test_main.o" -o "Test_main.o" "../Test_main.cpp"
+Finished building: ../Test_main.cpp
+ 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
+16:00:26 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+make: rien à faire pour « all ».
+21:50:18 **** Incremental Build of configuration Debug for project TP2Archive ****
+make all 
+Building file: ../ReseauInterurbain.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ReseauInterurbain.d" -MT"ReseauInterurbain.o" -o "ReseauInterurbain.o" "../ReseauInterurbain.cpp"
+In file included from ../ReseauInterurbain.cpp:13:0:
+../ReseauInterurbain.h: In constructor ‘TP2::ReseauInterurbain::ReseauInterurbain(std::__cxx11::string, size_t)’:
+../ReseauInterurbain.h:77:14: warning: ‘TP2::ReseauInterurbain::nomReseau’ will be initialized after [-Wreorder]
+  std::string nomReseau;  // Le nom du reseau (exemple: Orleans Express)
+              ^
+../ReseauInterurbain.h:76:9: warning:   ‘TP2::Graphe TP2::ReseauInterurbain::unReseau’ [-Wreorder]
+  Graphe unReseau;   //Le type ReseauRoutier est composé d'un graphe
+         ^
+../ReseauInterurbain.cpp:20:1: warning:   when initialized here [-Wreorder]
+ ReseauInterurbain::ReseauInterurbain(std::string nomReseau, size_t nbVilles):
+ ^
+../ReseauInterurbain.cpp: In member function ‘TP2::Chemin TP2::ReseauInterurbain::rechercheCheminDijkstra(const string&, const string&, bool) const’:
+../ReseauInterurbain.cpp:79:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../ReseauInterurbain.cpp: In member function ‘std::vector<std::vector<std::__cxx11::basic_string<char> > > TP2::ReseauInterurbain::algorithmeKosaraju()’:
+../ReseauInterurbain.cpp:82:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../ReseauInterurbain.cpp
+ 
+Building target: libTP2Archive.a
+Invoking: GCC Archiver
+ar -r  "libTP2Archive.a"  ./Graphe\ .o ./ReseauInterurbain.o   
+ar: création de libTP2Archive.a
+Finished building target: libTP2Archive.a
+ 
+21:50:20 **** Incremental Build of configuration Debug for project TP2Main ****
+make all 
+Building target: TP2Main
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Main"  ./Main.o   -lTP2Archive
+Finished building target: TP2Main
+ 
+21:50:20 **** Incremental Build of configuration Debug for project TP2Test ****
+make all 
+Building target: TP2Test
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/TP2/TP2Archive/Debug" -o "TP2Test"  ./Test_main.o   -lgtest -lgtest_main -lpthread -lTP2Archive
+Finished building target: TP2Test
+ 
